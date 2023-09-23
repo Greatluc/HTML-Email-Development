@@ -4,27 +4,125 @@
         <meta charset="utf-8">
         <meta name="viewpoint" content="width=device-width, initial-scale=1">
         <title>Html course</title>
-         <style>
-            @media only screen and(min-width: 960px) {
+        <link rel="stylesheet" href="index.css">
+        <style>
+            /* Desktop*/
+          
+            @media only screen (min-width: 960px){
                 .container{
                     width: 960px;
                 }
-            }
-
+                .header-left{
+                    padding: 36px 50px 70px  !important ;
+                }
+               .lets-you-row {
+                padding: 0 ;
+               }
+               .advance-table{
+                padding: 15px 50px 70px 50px !important;
+                background: white;
+               }
+               
+               .one-solution-table img{
+                    max-width: 611px;
+                }
+                .one-solution-table {
+                    text-align: center;
+                }
+                .join-together-table .left-column{
+                padding: 0 20px !important;
+               }
+               .join-together-table .middle-column{
+                padding: 0 20px !important;
+               }
+               .join-together-table .right-column{
+                padding: 0 20px !important;
+               }
+               .detail-table{
+                padding: 50px 50px 25px !important;
+               }
+               .lets-you-row .left-column{
+                width: 50%;
+               }
+               .lets-you-row .middle-column{
+                width: 50%;
+               }
+               .lets-you-row .right-column{
+                width: 100%;
+               }
+                }
+                
+            
+            /* Mid-sizes*/
             @media only screen and(max-width: 960px) {
                .container{
-                width: 600px;
+                width: 690px;
                } 
+               
             }
-            @media only screen and(max-width: 600px) {
+            /* Mobile*/
+            @media only screen and (max-width: 600px) {
                 .container{
                 width: 100%;
                } 
-            }
+               .header-left{
+                width: 100%;
+               }
+               .header-right{
+                width: 100%;
+               }
+               .lets-you-row .left-column{
+                width: 50%;
+                <
+               }
+               .lets-you-row .middle-column{
+                width: 50%;
+               }
+               .lets-you-row .right-column{
+                width: 100%;
+               }
+               .advance-table .image_head{
+                width: 100%;
+               }
+               .advance-table .left-column{
+                width: 100%;
+               }
+               .advance-table .right-column{
+                width: 100%;
+               }
+               .advance-table .left-column .left-store{
+                text-align: center;
+                width: 100%;
+                }
+               .advance-table .right-column .right-store {
+                text-align: center;
+                width: 100%;
+               }
+               
+               .join-together-table .left-column{
+                padding: 0 50px !important;
+                width: 100%;
+               }
+               .join-together-table .middle-column{
+                padding: 0 50px !important;
+                width: 100%;
+               }
+               .join-together-table .right-column{
+                padding: 0 50px !important;
+                width: 100%;
+               }
+               .detail-table .one-row-table.left-column{
+                width: 100%;
+               }
+               .detail-table .one-row-table.right-column{
+                width: 100%;
+               }    
+}
+            
         </style>
        
     </head>
-    <body style="background: black;">
+    <body style="background: black">
         <!-- start of html email-->
         <table width ="100%"    cellspacing="0" cellpadding="0" border="0">
             <tr> 
@@ -39,14 +137,14 @@
                                     padding: 15px 15px 70px 15px;">
                                     <tr>
                                         <td style="color: white; font-family: 'HelveticaNeue-Light', 'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; color: white;">
-                                            <img src="img/logo.png"> 
+                                            <img src="https://i.postimg.cc/CLHShn6v/logo.png"> 
                                             <h2 style="font-size: 30px; margin: 0; padding: 20px 0px 10px; line-height: 1;">Get ready for</h2>
                                             <h1 style="font-size: 80px; margin:0 ; font-weight: 300px; line-height: 1; padding: 0 0 10px;">HERO</h1>
                                             <p style="font-size: 14px; padding: 20px 0px 50px ; font-style: italic; margin: 0; line-height: 1.5;">This is the welcome messaage for you our great hero of all time.This page will make
                                                 you who your are </p>
                                                 <a href="#" class="ghost-bn" style="border-radius: 3px; font-size: 12px; border: 2px solid white; text-decoration: none; color: white;
                                                 padding: 6px 15px; text-transform:uppercase;"> Learn more</a>
-                                        </td>
+                                        </td> 
                                     </tr>
                                     </table>
                                     <!--end of left-column -->
@@ -73,7 +171,7 @@
                                         </tr>
                                        <tr>
                                         <td align="center" valign="bottom" style="padding-top: 10px;">
-                                            <img src="img/smartwatch.png" alt="Picture of watch">
+                                            <img src="https://i.postimg.cc/K8pXjP75/smartwatch.png" alt="Picture of watch">
                                         </td>
                                        </tr>
                                     </table>
@@ -88,128 +186,116 @@
                                     <h3 style="color: #333333; font-weight: 300; text-align: center; padding: 36px 0 16px 0; 
                                     font-family: 'HelveticaNeue-Light', 
                                    'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 24px; text-transform: uppercase;">Hero Let's You</h3>
+                                    
                                     <!--Start of left column-->
-                                    <table class="left-column" width ="33.33%" align="Left" cellspacing="0" cellpadding="0" border="0"  >
-                                        <tr>
+                                    <table class="left-column" width ="50%" align="Left" cellspacing="0" cellpadding="0" border="0" 
+                                    style="padding: 0 15px 20px; ">
+                                <tr>
+                                    <td>
+                                        <!--start of icon table-->
+                                        <table class="icon-table" width ="100%" align="Left" cellspacing="0" cellpadding="0" border="0" 
+                                        style="">
+                                         <tr>
                                             <td>
-                                                <table  class="title-icon" width ="33.33%" align="Left" cellspacing="0" cellpadding="0" border="0" style="padding-left: 10px; padding-bottom: 0px; ">
-                                                        <tr>
-                                                            <td>
-                                                                <img src="img/bell_icon.png">
-                                                            </td>
-                                                            <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
-                                                            text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
-                                                            'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;">
-                                                                Notify
-                                                            </td>
-                                                        </tr>
-                                                </table>        
-                                                                         
+                                                <img src="https://i.postimg.cc/nzypz4JW/bell-icon.png">
                                             </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <p style="color: #7f8887; font-weight: 400; line-height: 1.8; padding-left: 10px;
-                                                 font-family: 'HelveticaNeue-Light', 
-                                                'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;"> 
-                                                    This is the best template ever. You will love it.
-                                                </p>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <a href="#" style="color: #2792ec; font-weight: 600; text-decoration: none; padding-left: 10px;
-                                                 font-family: 'HelveticaNeue-Light', 
-                                                'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;"> Learn mode</a>
-                                            </td>
-                                        </tr>
-
-                                    </table>
+                                            <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
+                                                text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
+                                                'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;">
+                                            Notify
+                                           </td>
+                                         </tr>
+                                        </table> 
+                                        <!--end of icon table-->
+                                         
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="color: #7f8887; font-weight: 400; line-height: 1.8; padding-left: 10px;
+                                        font-family: 'HelveticaNeue-Light',  'Helvetica Neue', 'Helvetica, Arial', 
+                                        'Lucida Grande', sans-serif; font-size: 14px;">
+                                        This is the first way of making a hard thing simple, by buying a watch from us right now
+                                     </p>
+</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            
                                     <!--End of left column-->
                                     
                                     <!--Start of middle column-->
-                                    <table class="middle-column" width ="33.33%" align="Left" cellspacing="0" cellpadding="0" border="0" style="padding-left:  10px; ">
-                                        <tr>
+                                    <table class="left-column" width ="50%" align="Left" cellspacing="0" cellpadding="0" border="0" 
+                                    style="padding: 0 15px 20px; ">
+                                <tr>
+                                    <td>
+                                        <!--start of icon table-->
+                                        <table class="icon-table" width ="100%" align="Left" cellspacing="0" cellpadding="0" border="0" 
+                                        style="">
+                                         <tr>
                                             <td>
-                                                <table  class="container" width ="33.33%" align="Left" cellspacing="0" cellpadding="0" border="0">
-                                                        <tr>
-                                                            <td>
-                                                                <img src="img/share_icon.png">
-                                                            </td>
-                                                            <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
-                                                            text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
-                                                            'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;">
-                                                                Share
-                                                            </td>
-                                                        </tr>
-                                                </table>        
-                                                                         
+                                                <img src="https://i.postimg.cc/HkkDTZMx/share-icon.png">
                                             </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <p style="color: #7f8887; font-weight: 400; line-height: 1.8;
-                                                 font-family: 'HelveticaNeue-Light', 
-                                                'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;"> 
-                                                    This is the best template ever. You will love it.
-                                                </p>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <a href="#" style="color: #2792ec; font-weight: 600; text-decoration: none;
-                                                 font-family: 'HelveticaNeue-Light', 
-                                                'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;"> Learn mode</a>
-                                            </td>
-                                        </tr>
-
-                                    </table>
-                                    <!--End of middle column-->
-
-                                     <!--Start of right column-->
-                                     <table class="right-column" width ="33.33%" align="Left" cellspacing="0" cellpadding="0" border="0" style="padding-left:15px; padding-bottom: 70px;">
-                                        <tr>
-                                            <td>
-                                                <table  class="container" width ="33.33%" align="Left" cellspacing="0" cellpadding="0" border="0">
-                                                        <tr>
-                                                            <td>
-                                                                <img src="img/wifi_icon.png">
-                                                            </td>
-                                                            <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
-                                                            text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
-                                                            'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;">
-                                                                Connect
-                                                            </td>
-                                                        </tr>
-                                                </table>        
-                                                                         
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <p style="color: #7f8887; font-weight: 400; line-height: 1.8;
-                                                 font-family: 'HelveticaNeue-Light', 
-                                                'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;"> 
-                                                    This is the best template ever. You will love it.
-                                                </p>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <a href="#" style="color: #2792ec; font-weight: 600; text-decoration: none;
-                                                 font-family: 'HelveticaNeue-Light', 
-                                                'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;"> Learn mode</a>
-                                            </td>
-                                        </tr>
-
-                                    </table>
-                                    <!--End of right column-->
+                                            <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
+                                            text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
+                                            'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;">
+                                           SHARE
+                                           </td>
+                                         </tr>
+                                        </table> 
+                                        <!--end of icon table-->
+                                         
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="color: #7f8887; font-weight: 400; line-height: 1.8; padding-left: 10px;
+                                        font-family: 'HelveticaNeue-Light',  'Helvetica Neue', 'Helvetica, Arial', 
+                                        'Lucida Grande', sans-serif; font-size: 14px;">
+                                        This is the first way of making a hard thing simple, by buying a watch from us right now
+                                     </p>
+</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!--End of middle column table-->
+                            <!-- start of right column-->
+                            <table class="left-column" width ="100%" align="center" cellspacing="0" cellpadding="0" border="0" 
+                            style="padding: 0 15px 20px; ">
+                        <tr>
+                            <td>
+                                <!--start of icon table-->
+                                <table class="icon-table" width ="100%" align="Left" cellspacing="0" cellpadding="0" border="0" 
+                                style="">
+                                 <tr>
+                                    <td>
+                                        <img src="https://i.postimg.cc/vTskk3MG/wifi-icon.png">
+                                    </td>
+                                    <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
+                                    text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
+                                    'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 14px;">
+                                   connect
+                                   </td>
+                                 </tr>
+                                </table> 
+                                <!--end of icon table-->
+                                 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="color: #7f8887; font-weight: 400; line-height: 1.8; padding-left: 10px;
+                                font-family: 'HelveticaNeue-Light',  'Helvetica Neue', 'Helvetica, Arial', 
+                                'Lucida Grande', sans-serif; font-size: 14px;">
+                                This is the first way of making a hard thing simple, by buying a watch from us right now
+                             </p>
+</p>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <!--End of column table-->
                                 </td>
                             </tr>
                         <!--end of lets you row 2-->
@@ -224,7 +310,7 @@
                                             <td style="color: #333333; font-weight: 300; text-align: center; padding: 36px 0 16px 0; 
                                             font-family: 'HelveticaNeue-Light', 
                                            'Helvetica Neue', 'Helvetica, Arial', 'Lucida Grande', sans-serif; font-size: 24px; text-transform: uppercase;">
-                                                <img src="img/image_head.jpg">
+                                                <img src="https://i.postimg.cc/FHrm7FMh/image-head.jpg" class="image_head">
                                             </td>
                                         </tr>
                                         <tr>
@@ -252,8 +338,8 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td align="right">
-                                                        <img src="img/appstore.png">
+                                                    <td align="right" class="left-store">
+                                                        <img   src="https://i.postimg.cc/PxpdT6BZ/appstore.png" >
                                                     </td>
                                                 </tr>
                                                 </table>
@@ -272,8 +358,8 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td align="left">
-                                                        <img src="img/playstore.png">
+                                                    <td align="left" class="right-store">
+                                                        <img src="https://i.postimg.cc/Pf1ky8ht/playstore.png">
                                                     </td>
                                                 </tr>
                                                 
@@ -294,7 +380,7 @@
                                     style="padding: 50px 0; background: #141414;">
                                     <tr>
                                         <td style="width: 100%;">
-                                            <img src="img/one_app.jpg" style="width: 100%;">
+                                            <img src="https://i.postimg.cc/tTxGLsxN/one-app.jpg" style="width: 100%;">
                                         </td>
                                     </tr>
                                     </table>
@@ -323,7 +409,7 @@
                                             style="padding: 50px 15px; background: white;">
                                             <tr>
                                                 <td align="center">
-                                                    <img src="img/watch_screen.png"
+                                                    <img src="https://i.postimg.cc/bv4KHqBD/watch-screen.png"
                                                 </td>
                                             </tr>
                                             <tr>
@@ -355,7 +441,7 @@
                                             style="padding: 50px 15px; background: white;">
                                             <tr>
                                                 <td align="center">
-                                                    <img src="img/watch_screen.png"
+                                                    <img src="https://i.postimg.cc/bv4KHqBD/watch-screen.png"
                                                 </td>
                                             </tr>
                                             <tr>
@@ -387,7 +473,7 @@
                                             style="padding: 50px 15px; background: white;">
                                             <tr>
                                                 <td align="center">
-                                                    <img src="img/watch_screen.png"
+                                                    <img src="https://i.postimg.cc/bv4KHqBD/watch-screen.png"
                                                 </td>
                                             </tr>
                                             <tr>
@@ -443,7 +529,7 @@
                                                                         style="">
                                                                          <tr>
                                                                             <td>
-                                                                                <img src="img/phone_icon.png">
+                                                                                <img src="https://i.postimg.cc/d0XKH2L0/phone-icon.pngg">
                                                                             </td>
                                                                             <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
                                                                             text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
@@ -479,7 +565,7 @@
                                                                         style="">
                                                                          <tr>
                                                                             <td>
-                                                                                <img src="img/phone_icon-48.png">
+                                                                                <img src="https://i.postimg.cc/Y0BBktNK/phone-icon-48.png">
                                                                             </td>
                                                                             <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
                                                                             text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
@@ -528,7 +614,7 @@
                                                                         style="">
                                                                          <tr>
                                                                             <td>
-                                                                                <img src="img/check_icon.png">
+                                                                                <img src="https://i.postimg.cc/T1nGWK23/check-icon.png">
                                                                             </td>
                                                                             <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
                                                                             text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
@@ -564,7 +650,7 @@
                                                                         style="">
                                                                          <tr>
                                                                             <td>
-                                                                                <img src="img/settings_icon.png">
+                                                                                <img src="https://i.postimg.cc/J4mC244j/settings-icon.png">
                                                                             </td>
                                                                             <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
                                                                             text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
@@ -613,7 +699,7 @@
                                                                         style="">
                                                                          <tr>
                                                                             <td>
-                                                                                <img src="img/menu_icon.png">
+                                                                                <img src="https://i.postimg.cc/DzmTPjfD/menu-icon.png">
                                                                             </td>
                                                                             <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
                                                                             text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
@@ -649,7 +735,7 @@
                                                                         style="">
                                                                          <tr>
                                                                             <td>
-                                                                                <img src="img/share_icon.png">
+                                                                                <img src="https://i.postimg.cc/HkkDTZMx/share-icon.png">
                                                                             </td>
                                                                             <td style="color: #333333; padding: 0 0 0 13px; font-weight: 600; 
                                                                             text-transform: uppercase; font-family: 'HelveticaNeue-Light', 
@@ -728,22 +814,22 @@
                                                             style="">
                                                             <tr>
                                                                 <td align="center">
-                                                                    <img src="img/twitter_icon.png">
+                                                                  <a href="https://twitter.com/" > <img src="https://i.postimg.cc/wB1Cm10Y/twitter-icon.png"></a>
                                                                 </td>
                                                                 <td align="center">
-                                                                    <img src="img/facebook_icon.png">
+                                                                   <a href="https://facebook.com/"><img src="https://i.postimg.cc/G3Dbf5Pn/facebook-icon.png"></a>
                                                                 </td>
                                                                 <td align="center">
-                                                                    <img src="img/google_icon.png">
+                                                                    <a href="https://google.com/"><img src="https://i.postimg.cc/yYz7Cyng/google-icon.png"></a>
                                                                 </td>
                                                                 <td align="center">
-                                                                    <img src="img/pinterest_icon.png">
+                                                                    <a href="https://pinterest.com/"><img src="https://i.postimg.cc/Fzb5HwGf/pinterest-icon.png"></a>
                                                                 </td>
                                                                 <td align="center">
-                                                                    <img src="img/linkedin_icon.png">
+                                                                    <a href="https://linkedin.com/"><img src="https://i.postimg.cc/pLsv8bvz/linkedin-icon.png"></a>
                                                                 </td>
                                                                 <td align="center">
-                                                                    <img src="img/youtube_icon.png">
+                                                                    <a href="https://youtube.com/"><img src="https://i.postimg.cc/90YKhZFZ/youtube-icon.png"></a>
                                                                 </td>
                                                             </tr>
                                                     </table>
